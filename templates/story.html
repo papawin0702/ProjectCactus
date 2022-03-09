@@ -1,0 +1,43 @@
+{% extends 'layout.html' %}
+
+{% load static %}
+{% block content %}
+    
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'colors_bt5.css' %}">
+<link rel="stylesheet" href="{% static 'css/custom.css' %}">
+<body>
+    <section class="showcase pt-5">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-6 order-lg-2 text-dark showcase-img" style="background-image: url({% static 'media/story1.png' %});"> <h2>Cactus...คืออะไร?</h2> </div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2>คือ</h2>
+                    <p>Cactus หรือ กระบองเพชรจัดเป็นไม้ดอกไม้ประดับจากต่างประเทศที่นิยมปลูกชนิดหนึ่ง โดยเฉพาะการปลูกประดับภายในอาคาร เช่น 
+                        ห้องทำงาน ห้องรับแขก ห้องนอน ตามระเบียง หรือห้องโถงในอาคารต่างๆ เนื่องจากเป็นไม้ที่โดดเด่น สะดุดตา ลำต้นไม่มีใบ มีหนามหรือตุ่มหนามปกคลุม  
+                        ลำต้นอวบสั้น ปลูกง่าย ไม่ต้องดูแลให้ยุ่งยาก และมีอายุนานหลายปี</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-dark showcase-img" style="background-image: url({% static 'media/story2.png' %});"></div>
+                <div class="col-lg-6 my-auto showcase-text">
+                    <h2>สิ่งที่ควรรู้</h2>
+                    <p> แม้ Cactus เป็นพืชที่ไม่ต้องการน้ำมาก แต่ก็ต้องการน้ำต่อเนื่อง ฉะนั้นเมื่อต้นโตเต็มที่แล้ว ควรหมั่นให้น้ำอย่างน้อย 7-10 วันต่อครั้ง บำรุงด้วยปุ๋ยคอกหรือปุ๋ยหมัก 5-6 ครั้งต่อปี 
+                        หมั่นตัดส่วนที่เป็นโรคทิ้ง สิ่งที่ต้องระวังในการปลูกต้นกระบองเพชรคือ ลำต้นเหี่ยว มีรอยย่น และแคระแกร็น โคนโยก รากเน่าเพราะความชื้นสูงเกินไปแต่ไม่ค่อยมีปัญหาเรื่องศัตรูพืชเหมือนต้นไม้ชนิดอื่น ๆ</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 order-lg-2 text-dark showcase-img" style="background-image: url({% static 'media/story3.png' %});"></div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <h2>วิธีปลูกและการดูแล</h2>
+                    <p>สำหรับการปลูกในบ้าน คือ วางให้โดนแดดโดยตรงในช่วงที่กำลังโต ประมาณ 4-6 ชั่วโมงต่อวัน นอกเหนือจากนี้ก็วางกระถางในที่ที่มีแดดรำไรและหมั่นรดน้ำเป็นประจำ เมื่อหน้าดินแห้งต้องรดน้ำให้
+                        ชุ่มหรือให้น้ำซึมลงไปจากหน้าดินประมาณ 2 นิ้ว นอกจากนี้ก็หมั่นใส่ปุ๋ยอย่าให้ขาดโดยเป็นปุ๋ยที่ใช้สำหรับบำรุงแคคตัสเท่านั้น หากมีการเปลี่ยนกระถางไม่ควรรดน้ำทันที แต่ให้เว้นไว้ประมาณ 
+                        สัปดาห์ก่อนให้น้ำครั้งต่อไป </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>
+{% endblock %}

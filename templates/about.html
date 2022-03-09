@@ -1,0 +1,41 @@
+{% extends 'layout.html' %}
+
+{% load static %}
+{% block content %}
+    
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'colors_bt5.css' %}">
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+<body>
+    <section class="showcase pt-5">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-6 order-lg-2 text-dark showcase-img" style="background-image: url({% static 'media/about1.png'%});"> <h2>CACTUS.S</h2> </div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <p>เราสร้างแพลตฟอร์มตลาด Cactus ออนไลน์ สำหรับจัดแสดงสินค้ากระบองเพชรและไม้อวบน้ำ(Cactus & Succulent)และอุปกรณ์อื่นๆแบบครบครัน เพื่ออำนวยความสะดวกให้กับผู้ซื้อและ
+                        ร้านค้าผู้ผลิตให้สามารถซื้อขายสินค้าบนโลกออนไลน์กันได้อย่างปลอดภัยและมีมาตรฐานทางผู้จักทำเว็บไซต์สนับสนุนเทรนด์การซื้-ขาย “ Cactus “ 
+                        เพื่อตกแต่งบ้านและสวนเพราะทางผู้จักทำก็หลงรักการปลูก Cactus เช่นกัน</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 text-dark showcase-img" style="background-image: url({% static 'media/about2.png'%});"><h2>จุดเริ่มต้น</h2></div>
+                <div class="col-lg-6 my-auto showcase-text">
+                    <p>การที่จะค้นหาต้นไม้ที่ถูกใจสักต้นบนโลกออนไลน์นั้นไม่ใช่เรื่องง่าย บางต้นติดต่อซื้อขายไม่ได้ บางต้นจะต้องนำเข้า จากต่างประเทศ บางร้านค้าสั่งซื้อชำระเงินไปแล้วแต่ก็ไม่ได้รับสินค้า 
+                        ตลอดเวลาที่เป็นผู้ซื้อทางเราได้ศึกษาปัญหาต่างๆ เหล่านี้ และเกิดเป็นไอเดียว่า  "คงจะดีหากมีตลาด Cactus ออนไลน์ที่จัดแสดงในประเทศไทย" เพื่อเป็นศูนย์รวมให้ร้านค้าผู้ผลิตได้นำ 
+                        “ Cactus & Succulent “มาจัดแสดงขาย และจะทำอย่างไรให้เป็นการค้าที่เป็นธรรมที่สุด</p>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-6 order-lg-2 text-dark showcase-img" style="background-image: url({% static 'media/about3.png'%});"><h2>เป้าหมายของเรา</h2></div>
+                <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                    <p>ทางผู้จัดทำอยากเห็นเพื่อนๆ พี่น้องทุกคนรักในการปลูก Cactus เราเชื่อว่าการตกแต่งบ้านและสวนด้วยพืชพันธุ์ไม้ธรรมชาตินั้นคือความสุขอย่างหนึ่งที่ประเมินค่าไม่ได้ สำหรับใครที่มีบ้านอยู่ใกล้ตลาด
+                        ต้นไม้อยู่แล้ว คงสามารถหาซื้อต้นไม้แปลกๆ สวยๆ ได้อย่างไม่ยาก แต่สำหรับเพื่อนๆ บางคนที่มีบ้านอยู่ไกล หรือไม่สะดวกที่จะไปตลาดต้นไม้   “ CACTUS.S ” 
+                        จะช่วยนำ Cactus จากร้านค้าผู้ผลิตทั่วประเทศมาแนะนำให้คุณเลือกซื้อและจัดส่งไปให้ถึงบ้านของคุณ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>
+{% endblock %}

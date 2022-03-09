@@ -1,0 +1,25 @@
+.all{
+    margin-top: 100px;
+}
+
+.seed-img{
+    margin-top: -500px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
+.seed-img-1{
+    width: 200px;
+    height: 250px;
+}
+.seed-check{
+    margin-left: 105px;
+}
+
+.text-link{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.text-color{
+    text-emphasis-color: black;
+}

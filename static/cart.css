@@ -1,0 +1,84 @@
+
+.cart-bt{
+    padding-top: 150px;
+    margin-left: 80px;
+}
+.cart-bt-1{
+    margin-bottom: -30px;
+    margin-left: 45px;
+}
+.cart-bt-2{
+    margin-left: 740px;
+    margin-bottom: -20px;
+}
+.cart-bt-3{
+    margin-left: 1000px;
+    margin-bottom: -25px;
+}
+.cart-bt-4{
+    margin-left: 1300px;
+    margin-bottom: 0px;
+}
+.cart{
+    padding-top: 0px;
+}
+.cart-item{
+    height: 150px;
+    background-color: #EFEFEF;
+    margin-top: 15px;
+}
+.cart-form-check-input{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;  
+}
+
+.cart-img{
+    height: 100px;
+    width: 150px;
+    margin: 25px;
+}
+.cart-name-p{
+    margin-top: -90px;
+    margin-left: 350px;
+    font-size: 20px;
+}
+.cart-name-pc{
+    margin-top: -40px;
+    margin-left: 800px;
+    font-size: 16px;
+}
+.cart-number-item{
+    font-style: normal;
+    color: dark;
+}
+.pagination{
+    margin-top: -48px;
+    margin-left:1053px;
+    font-size: 16px;
+}
+.cart-name-t{
+    margin-top: -45px;
+    margin-left:1355px;
+    font-size: 16px;
+}
+.cart-form-check-input-last{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 30px; 
+}
+.cart-form-check-lable-last{
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.cart-text-last{
+    margin-top: -23px;
+    font-size: 16px;
+}
+.btn3{
+    margin-left: 1300px;
+    margin-top:-70px;
+    background-color: plum;
+}

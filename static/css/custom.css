@@ -1,0 +1,23 @@
+.showcase-text{
+    padding: 5rem;
+    background-color: #AFE1E8;
+}
+
+.showcase-img{
+    background-size: cover;
+}
+
+/* shopall */
+.card{
+    margin-top: 20px; 
+    margin-left: 100px; 
+    width: 18rem;
+}
+.card-img-top{
+    width: 200px;
+    height: 250px; 
+    padding: 20px;
+}
+.btn1{
+    background-color: #FFFCFC;
+}

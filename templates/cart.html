@@ -1,0 +1,51 @@
+{% extends 'layout.html' %}
+
+{% load static %}
+{% block content %}
+     
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'colors_bt5.css' %}">
+
+
+<body>
+    <div class="container-fluid">
+        <div class="cart-bt">
+            <h5 class="cart-bt-1">Product</h5>
+            <h5 class="cart-bt-2">Price</h5>
+            <h5 class="cart-bt-3">Number</h5>
+            <h5 class="cart-bt-4">Total</h5>
+        </div>
+    </div>
+
+    <div class="container-fluid cart">
+        <div class="container-fluid cart-item">
+            <input class="cart-form-check-input" type="checkbox" value="flexCheckDefault" checked>
+            <img src="{% static 'media/story3.png' %}" class="cart-img">
+            <p class="cart-name-p">Cactus</p>
+            <p class="cart-name-pc">THB 250</p>
+            <ul class="pagination justify-content">
+                <li class="page-item">
+                    <a href="#" class="page-link"><span>&#45</span></a>
+                </li>
+                <li class="cart-number-item">
+                    <a href="#" class="page-link">0</a>
+                </li>
+                <li class="cart-number-item">
+                    <a href="#" class="page-link">&#43</a>
+                </li>
+            </ul>
+            <p class="cart-name-t">THB 250</p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="cart-btt">
+            <input class="cart-form-check-input-last" type="checkbox" value="flexCheckChecked" checked>
+            <label class="cart-form-check-lable-last" for="flexCheckChecked">All Product</label>
+            <p class="cart-text-last text-center">Total  1 (หน่วย)  THB  </p>
+            <button class="btn justify-content-md-end btn-link">Confirm</button>
+        </div>
+    </div>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castus</title>
+    
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light " data-spy="affix" data-offset-top="197" style="background-color: #E7C0B9;">
+        <div class="container-fluid ">
+            <ul class="navbar-nav active">
+                <li class="nav-item "><a href="/" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="/shopall" class="nav-link">ShopAll</a></li>
+                <li class="nav-item"><a href="/story" class="nav-link">Story</a></li>
+                <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="/help" class="nav-link">Help</a></li>
+            </ul>
+            <a href="/" class="navbar-brand "><h4>CACTUS.S</h4></a>
+            <ul class="navbar-nav">
+                {% if user.is_authenticated %}
+                <li class="nav-item"><a href="#" class="nav-link">Hello, {{ user.username }}</a></li>
+              <form method="post" action="{% url 'logout' %}"   novalidate>
+                  {% csrf_token %}
+                  <button type="submit" class="btn btn-danger ml-2">Log out</button>
+              </form>
+              {% else %}
+              <a class="btn btn-info mx-2" href="{% url 'login' %}">Log in</a>
+              <li class="nav-item"><a href="#" class="nav-link">Profile</a></li>
+              {% endif %}
+              {% if user.is_authenticated %}
+              {% csrf_token %}
+                <li class="nav-item"><a href="/cart" class="nav-link">Shopping</a></li>
+                {% else %}
+                <li class="nav-item"><a href="/login" class="nav-link">Shopping</a></li>
+                {% endif %}
+                <li class="nav-item"><a href="#" class="nav-link">Notification</a></li>
+            </ul>
+        </div>
+    </nav> 
+    <div class="container-fluid">
+        {% block content %}
+        {% endblock %}
+    </div>
+  
+</body>
+</html>
