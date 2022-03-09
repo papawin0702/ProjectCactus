@@ -1,18 +1,22 @@
 .all{
     margin-top: 100px;
+    margin-left: 200px;
 }
 
 .seed-img{
     margin-top: -500px;
-    margin-left: 350px;
+    margin-left: 600px;
     margin-bottom: 20px;
 }
 .seed-img-1{
-    width: 200px;
-    height: 250px;
+    width: 270px;
+    height: 320px;
 }
 .seed-check{
-    margin-left: 105px;
+    margin-left:200px;
+}
+.range-r{
+    margin-left:200px;
 }
 
 .text-link{
